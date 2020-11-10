@@ -8,7 +8,8 @@
         ]>
 <defaultpg>
     <credential>
-        <userid>USER ID: </userid>
-        <password>PASSWORD: </password>
+        <userid>Username: </userid>
+        <password>Password: </password>
     </credential>
 </defaultpg>
+
