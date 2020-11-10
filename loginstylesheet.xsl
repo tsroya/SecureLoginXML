@@ -4,30 +4,31 @@
     <xsl:template match="/">
         <html>
             <body>
-                <h2>Enter Your Login Details Below:</h2>
-                <table border="1">
-                    <tr >
-                        <td>
-                            <xsl:value-of select="//userid"/>
-                        </td>
-                        <th>
-                            <input type="text" name="userid" />
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <xsl:value-of select="//password"/>
-                        </td>
-                        <th>
-                            <input type="text" name="password" />
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="submit" name="loginbtn" />
-                        </th>
-                    </tr>
-                </table>
+                <div style="text-align: center;  padding: 70px 0;">
+                <form action="" method="post"> <!-- action must be changed to reference a file -->
+                    <h2>Enter Your Login Details Below:</h2>
+                    <table border="1" style="margin: auto; border:solid; border-collapse: collapse; ">
+                        <tr >
+                            <td style="background-color:LightSteelBlue;">
+                               <b> <xsl:value-of select="//userid"/></b>
+                            </td>
+                            <th>
+                                <input type="text" name="userid" />
+                            </th>
+                        </tr>
+                        <tr>
+                            <td style="background-color:LightSteelBlue;">
+                               <b><xsl:value-of select="//password"/></b>
+                            </td>
+                            <th>
+                                <input type="text" name="password" />
+                            </th>
+                        </tr>
+                    </table>
+                    <br></br>
+                    <input  style="font-size:20px;" type="submit" name="loginbtn" value="Log In"/>
+                </form>
+                </div>
             </body>
         </html>
     </xsl:template>
