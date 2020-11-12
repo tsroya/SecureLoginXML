@@ -34,7 +34,7 @@ public class Servlet1 extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");
 			
 			//connect to database
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdemo","root","Rsd19961121a");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdemo","root","root");
 			
 			Statement stmt = con.createStatement();
 			ResultSet rs=stmt.executeQuery("select * from t");
