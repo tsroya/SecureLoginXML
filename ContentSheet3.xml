@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='ContentStyleSheet.xsl'?>
+<!DOCTYPE contentType [
+        <!ELEMENT contentType (contents)*>
+        <!ELEMENT contents (quote|text|title)*>
+        <!ELEMENT text (#PCDATA)>
+        <!ELEMENT quote (#PCDATA)>
+        <!ELEMENT title (#PCDATA)>
+        ]>
+
+<contentType>
+
+    <contents>
+        <title>2020 Formula One World Championship</title>
+        <text>
+            The 2020 FIA Formula One World Championship is a motor racing championship for Formula One cars which marks the 70th anniversary of the first Formula One World Drivers' Championship.[1][a] The championship is recognised by the governing body of international motorsport, the Fédération Internationale de l'Automobile (FIA), as the highest class of competition for open-wheel racing cars. Drivers and teams are scheduled to compete for the titles of World Drivers' Champion and World Constructors' Champion respectively.        </text>
+
+        <quote>
+            “Nothing can really prepare you for when you get in the Formula One car. Knowing that you’re driving a multimillion-dollar car, and if you crash it it’s going to cost a lot of money, and they might not give you another chance, is scary.”
+                    -Lewis Hamilton
+        </quote>
+
+
+    </contents>
+
+</contentType>
